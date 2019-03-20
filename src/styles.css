@@ -1,0 +1,4 @@
+/* this has the basic styling for the entire app */
+h1, p {
+  font-family: Lato;
+}
