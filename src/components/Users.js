@@ -47,7 +47,7 @@ class Users extends Component {
             <div className="container">
                  {this.state.data.map(user => {
                  return (
-                   <div key= { user.id } >
+                   <div key= { user._id } >
                      <h3 className="tooltip">
                      { user.name }
                      <span className="tooltiptext">
